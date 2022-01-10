@@ -127,11 +127,10 @@
 
 }
 
-.cart-btn{
-    margin-right: 2%;
-    background: maroon;
+.add-cart{
+    background-color: maroon;
     color: white;
-    font-weight: bold;
+    
 }
 
 .detail-des{
