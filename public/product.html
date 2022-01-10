@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - AashirOutfitters</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Aashir-Outfitters</title>
+    <link rel="stylesheet" href="css/product.css">
 </head>
 
 
@@ -15,151 +15,91 @@
 
     <nav class="navbar"> </nav>
 
-    <!-- header section -->
+    <section class="product-details">
+        <div class="image-sliders">
+            <div class="product-images">
+                <img src="../images/01.jpg" class="active" alt="">
+                <img src="../images/01--02.jpg" alt="">
+                <img src="../images/01--03.jpg" alt="">
+                <img src="../images/01--04.jpg" alt="">
 
-    <header class="hero-section">
-        <div class="header-image" style="background-image: url('../images/header.jpg');">
-            <h1 class="heading">Best Suiting Collection of all time</h1>
-
+            </div>
         </div>
 
-    </header>
+        <div class="details">
+            <h2 class="brand-name">
+                BURGUNDY TUXEDO
+            </h2>
+            <p class="product-short-des">
+                Burgundy Tuxedo for a wedding or party wear is paired with slim-fit pants to create the perfect balance
+                of
+                shapes and proportions. The finishes of the details complete an extremely versatile Tuxedo that exudes
+                classic, timeless elegance.
+            </p>
+            <span class="product-price">99$</span>
+            <span class="product-actual-price">200$</span>
+            <span class="product-discount"> ( 50% OFF )</span>
+            <p class="product-subheading">Select Size</p>
 
-    <!-- cards-container -->
+            <input type="radio" name="size" value="s" checked hidden id="s-size">
+            <label for="s-size" class="size-radiobtn check">s</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radiobtn">m</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radiobtn">l</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radiobtn">xl</label>
 
-    <section class="product">
-        <h2 class="product-category">Best Selling</h2>
-        <button class="pre-btn"><img src="../images/arrow.png" alt=""></button>
-        <button class="nxt-btn"><img src="../images/arrow.png" alt=""></button>
-        <div class="product-container">
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="../images/product01.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-desc">a short line about the cloth</p>
-                    <span class="price">20$</span>
-                    <span class="actual-price">40$</span>
-                </div>
-            </div>
+            <button class="btn cart-btn">add to cart</button>
+            <button class="btn">add to wishlist</button>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="../images/product02.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-desc">a short line about the cloth</p>
-                    <span class="price">20$</span>
-                    <span class="actual-price">40$</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="../images/product03.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-desc">a short line about the cloth</p>
-                    <span class="price">20$</span>
-                    <span class="actual-price">40$</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="../images/product04.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-desc">a short line about the cloth</p>
-                    <span class="price">20$</span>
-                    <span class="actual-price">40$</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="../images/product05.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-desc">a short line about the cloth</p>
-                    <span class="price">20$</span>
-                    <span class="actual-price">40$</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="../images/product06.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-desc">a short line about the cloth</p>
-                    <span class="price">20$</span>
-                    <span class="actual-price">40$</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="../images/product07.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-desc">a short line about the cloth</p>
-                    <span class="price">20$</span>
-                    <span class="actual-price">40$</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="../images/product08.jpg" class="product-thumb" alt="">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-desc">a short line about the cloth</p>
-                    <span class="price">20$</span>
-                    <span class="actual-price">40$</span>
-                </div>
-            </div>
         </div>
 
 
     </section>
 
-    <!-- collection container -->
+    <section class="detail-des">
+        <div>
+            <h2 > Description </h2>
+            <p class="description">Benefits of Choosing our Burgundy Tuxedo
+                Our tailors stitch to deliver the finest quality with superior fit as per your requirements. We have a
+                catalog full of bespoke suiting designs where you can choose the suit design. If you don’t find what you
+                are
+                looking for. You can go with your own choice of suiting elements. Where you can choose suit lapels,
+                buttons,
+                jacket style and number of buttons on cuffs with your monogram embarrassed on jacket cuff. Bespoke suit
+                is
+                not only giving you an ultimate comfort level but also boost your confidence, which reflects your
+                personality.
 
-    <section class="collection-container">
-        <a href="#" class="collection">
-            <img src="../images/bespokemen-collection.jpg" alt="">
-            <p class="collection-title">Bespoke <br>Collection<br></p>
-        </a>
-        <a href="#" class="collection">
-            <img src="../images/wedding-collection.jpg" alt="">
-            <p class="collection-title">Wedding <br>Collection<br></p>
-        </a>
-        <a href="#" class="collection">
-            <img src="../images/Bespoke=collection.jpg" alt="">
-            <p class="collection-title">Suiting <br>Collection<br></p>
-        </a>
+                Before getting started, you need to be clear to yourself and your tailor on what kind of blue 2-piece
+                tuxedo
+                suits.
+
+                Fabrics and patterns for Burgundy Tuxedo:
+                Decision to choose the right fabric is very important and complicated. Off course you are about to spend
+                money to get superior fit and luxury touch. Wool is an excellent choice for suits due to its versatility
+                and
+                refined look but its difficult to choose the which wool you should choose for your suit. The higher the
+                twist count the more expensive. We at Andre Emilio use 100% wool and which has 110 thread count in other
+                words we have world’s finest fabric for bespoke suiting.
+
+                Next is pattern. Its hardest selection part of bespoke suiting. Those who are use to wear bespoke suits
+                can
+                understand how difficult is this. The pattern and color selection can take most of the time. It’s very
+                difficult when you have so much choices and what transformation you will get after wearing your latest
+                bespoke suit.
+
+                Mainly there are three cuts to consider for suiting, British Cut, The American Cut and The Italian cut.
+                These are most famous and leading suiting cuts used by world’s leading men bespoke tailors. We offer all
+                three suiting cuts with customize suiting process. Let’s discuss all cuts and styles one by one it will
+                further clarify what these cuts means.
+            </p>
+        </div>
     </section>
 
-    <!-- more products -->
+
+
 
     <section class="product">
         <h2 class="product-category">Wedding Suits</h2>
@@ -391,18 +331,24 @@
 
     </section>
 
-    <!-- footer -->
+
+
+
+
+
+
+
+
+
+
 
     <footer class="footer"></footer>
 
 
     <script src="js/nav.js"></script>
-    <script src="js/home.js"></script>
     <script src="js/footer.js"></script>
-
-
-
-
+    <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
 
 
 </body>
