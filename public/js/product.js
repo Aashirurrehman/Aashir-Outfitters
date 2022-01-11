@@ -10,7 +10,6 @@ productImages.forEach((item, i) => {
     productImageSlider.style.background = `url(${item.src})`;
     activeImageSlider = i;
 
-
     } )
     
 })

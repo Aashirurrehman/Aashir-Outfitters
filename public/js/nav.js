@@ -10,9 +10,9 @@ const createNav = () => {
             <div class="nav-item">
                 <div class="search">
                     <input type="text" placeholder="search" class="search-box">
-                    <button class="search-btn"><a href="search.html" >Search</a></button>
+                    <button class="search-btn"><a href="search.html" target="_blank">Search</a></button>
                 </div>
-                <a href="signin.html"><img src="../images/user.png" alt=""> </a>
+                <a href="signin.html" target="_blank"><img src="../images/user.png" alt=""> </a>
                 <a href="cart.html"><img src="../images/cart.png" alt=""> </a>
             </div>
 
